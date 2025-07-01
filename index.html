@@ -7,11 +7,14 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <p class="title"">Calculator</p>
+
         <div class="container">
             <input type="text" id="display" readonly>
 
             <div class="buttons">
-                <button type="button" onclick="clearscr()" id="clear">AC</buttons>
+                <button type="button" onclick="clearscr()"
+                    id="clear">AC</buttons>
                 <button id="delete" onclick="deletechar()">DEL</button>
                 <!-- <button onclick="appendtodisplay('%')">%</button> -->
                 <button onclick="appendtodisplay('/')">/</button><br>
